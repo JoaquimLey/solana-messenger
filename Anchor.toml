@@ -1,0 +1,12 @@
+[programs.localnet]
+solana_messenger = "Go4kr5mpUn8dgrCPBmkAbYDgK5Jagja6MAfHF7LsuyP2"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/joaquimley/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
